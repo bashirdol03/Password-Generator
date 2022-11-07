@@ -1,3 +1,50 @@
 body {
     margin: 0;
+    background: darkblue;
+    color: white;
+}
+
+.hero { 
+    margin: 10px;
+    padding: 15px;    
+}
+
+h3{
+    font-size: 14px
+}
+
+button{
+    font-family: inherit;
+    margin-top: 10px ;
+    background: green;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 12px;
+}
+
+#green-color{
+    color: green
+}
+
+.underline{
+    margin-top: 15px;
+    border-bottom: 2px solid black;
+}
+
+.passwords{
+    
+    display : flex;
+    justify-content: flex-start;
+    color: green;
+    text-align: left;
+    
+}
+
+.passwords > p {
+    padding: 10px 20px;
+    margin-right: 40px;
+    background: black;
+    border-radius: 4px
 }

@@ -3,4 +3,38 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O"
 
 
 
+function randomPassword() {
+    let password = "" 
+    for(let i = 0 ; i < 15 ; i ++){
+        let randomNumber = Math.floor(Math.random() * characters.length )
+        password += characters[randomNumber]  
+    }
+    return password
+}
+
+function getPassword() {
+    
+let result1 = randomPassword()
+
+
+let result2 = randomPassword()
+
+
+let passwordOneEl = document.getElementById("password-one")
+passwordOneEl.textContent = result1
+
+let passwordTwoEl = document.getElementById("password-two")
+passwordTwoEl.textContent = result2
+
+}
+
+
+
+
+
+
+
+
+
+
 
